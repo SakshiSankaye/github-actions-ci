@@ -20,5 +20,5 @@ jobs:
 
       - name: Run build/test
         run: |
-          test -f index.html
+          test -f wrongfile.html
           echo "Build and test completed successfully"
